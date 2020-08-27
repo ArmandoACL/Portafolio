@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animación</title>
+    <script src="https://kit.fontawesome.com/5d1fe077c5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="videocs.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">
+</head>
+
+<body class="hidden">
+    <div class="centrado" id="onload">
+        <div class="lds-facebook"><div></div><div></div><div></div></div>
+    </div>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <div class="enlaces" id="enlaces">
+                    <a href="../index.html" id="enlace-equipo" class="btn-header">Regresar</a>
+                  
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <h1>Armando Cruz</h1>
+            <h2>Mis Trabajos de Animación</h2>
+        </div>
+        
+    </header>
+    <main>
+        <section class="work contenedor" id="trabajo">
+            <h3>Animación</h3>
+            <p class="after">Proyectos realizados tanto de manera tradicional como digital.</p>
+            <div class="botones-work">
+                <ul id="regreso">
+                    <li class="filter active" data-nombre='todos'>Todos</li>
+                    <li class="filter" data-nombre='diseño'>After Effects</li>
+                    <li class="filter" data-nombre='programacion'>Cuadro por Cuadro</li>
+                    <li class="filter" data-nombre='marketing'>Premiere</li>
+                </ul>
+            </div>
+            <div class="galeria-work">
+                <div class="cont-work diseño">
+                    <div class="imagen-port">
+                        <video controls src="img/Balam Video.mp4" alt=""></video>
+                        <div class="textos-work">
+                            <h4>Balam (Seguimiento en After)</h4>
+                        </div>
+                    </div>
+                </div>
+              
+                    <div class="cont-work diseño">
+                        <div class="imagen-port">
+                            <video controls src="img/3D.mp4" alt=""></video>
+                            <div class="textos-work">
+                                <h4>Imagen 3D</h4>
+                            </div>
+                        </div>
+                    </div>
+                <div class="cont-work diseño">
+                    <div class="imagen-port">
+                        <img src="img/Mariposa.gif" alt="">
+                        <div class="textos-work">
+                            <div class="hover-galeria">
+                                <a href="#i1"><img src="img/ver.svg" alt=""></a>
+                            
+                            </div>
+                            <h4>Mariposa</h4>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="cont-work programacion">
+                    <div class="imagen-port">
+                        <img src="img/Flip.gif" alt="">
+                        <div class="textos-work">
+                            <div class="hover-galeria">
+                                <a href="#i2"><img src="img/ver.svg" alt=""></a>
+                            
+                            </div>
+                            <h4>Flipbook</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="cont-work programacion">
+                    <div class="imagen-port">
+                        <img src="img/Eli box.gif" alt="">
+                        <div class="textos-work">
+                            <div class="hover-galeria">
+                                <a href="#i3"><img src="img/ver.svg" alt=""></a>
+                
+                            </div>
+                            <h4>Krita</h4>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="cont-work marketing">
+                        <div class="imagen-port">
+                            <video controls src="img/Animatic.m4v" alt=""></video>
+                            <div class="textos-work">
+                                <h4>Animatic</h4>
+                            </div>
+                        </div>
+                    </div>
+              
+                
+                
+            </div>
+        </section>
+        <section class="overlay" id="i1">
+            <div align='center' class="contenedor-img">
+        
+                <a href="#regreso"><img src="img/Mariposa.gif" alt=""></a>
+        
+            </div>
+        </section>
+        <section class="overlay" id="i2">
+            <div align='center' class="contenedor-img">
+        
+                <a href="#regreso"><img src="img/Flip.gif" alt=""></a>
+        
+            </div>
+        </section>
+
+        <section class="overlay" id="i3">
+            <div align='center' class="contenedor-img">
+        
+                <a href="#regreso"><img src="img/Eli box.gif" alt=""></a>
+        
+            </div>
+        </section>
+
+        
+
+    </main>
+    <footer id="contacto">
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>5611545940</p>
+            </div>
+            <div class="content-foo">
+                <h4>Email</h4>
+                <p>a_c_l_@hotmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Instagram</h4>
+                <p>@armandofyd</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Armando FYD | Armando Cruz López</h2>
+
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/filtro.js"></script>
+</body>
+</html>

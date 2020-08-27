@@ -1,0 +1,199 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+margin: 0;
+padding: 0;	
+}
+
+body {
+  font-family: 'open sans';
+	background: hsla(0,0%,99%,1.00);
+ 
+}
+
+nav{text-align: right;
+	padding-top: 42px;
+	padding-right: 35px;
+	padding-bottom: 15px;
+	
+	
+
+}
+nav > a{
+	color: black;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 20px;
+	padding-top: 0px;
+}
+nav > img{
+	float: left;
+	width: 125px;
+}
+nav > a:hover{
+	text-decoration: underline;
+	
+}
+.insta {
+	float: right;
+	width: 22px;
+	margin-left: -10px;
+
+}
+
+.insta:hover {
+ width: 23px;
+}
+
+.logo {
+	float: left;
+	width: 125px;
+	padding-left: 35px;
+	
+	
+}
+
+
+.titulo{
+	font-size: 35px;
+	text-align: center;
+	margin: auto;
+	padding: 35px;
+}
+
+.todo{
+	padding: 15px;
+	align-content: space-between
+}
+
+
+.parrafo{
+	width: 650px;
+	height: 500px;
+	padding: 20px;
+	font-size: 20px;
+	text-decoration: none;
+	}
+.parrafo img{
+	width: 300px;
+	float: left;
+	margin-top: 5px;
+	margin-right: 30px;
+	box-shadow: 5px 10px 8px 3px #909090;
+	
+	}
+
+.contenedor1{ 
+	padding: 20px;
+	overflow: hidden;
+	display: flex;
+
+}
+
+.datos{
+	float: left;
+	padding: 10px;
+	color: black;
+	width: 270px;
+	margin: 0 auto;
+	background: white;
+		border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 5px 10px 8px 3px #909090;  
+
+	
+}
+
+.edu{
+	float: left;
+	padding: 10px;
+	color: black;
+	width: 270px;
+	margin: 0 auto;
+	background: white;
+		border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 5px 10px 8px 3px #909090;
+	
+}
+
+.cursos{
+	float: left;
+	padding: 10px;
+	color: black;
+	width: 270px;
+	margin: 0 auto;
+background: white;
+		border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 5px 10px 8px 3px #909090;
+
+}
+
+.hab{
+	float: left;
+	padding: 10px;
+	color: black;
+	width: 270px;
+	margin: 0 auto;
+	background: white;
+	border-width: 2px;
+	border-style: solid;
+	border-color: black;
+	box-shadow: 5px 10px 8px 3px #909090;
+}
+
+
+.pro{	
+	padding: 10px;
+	color: black;
+	width: 570px;
+	margin: 10px;
+	float: left;
+
+	
+}
+
+
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
+
