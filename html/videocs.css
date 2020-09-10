@@ -286,9 +286,9 @@ nav .enlaces a:hover{
 }
 
 .cont-work{
-  width: 560;
+  width: 560px;
   box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
-  height:315;
+  height: 315px;
   overflow: hidden;
   margin-bottom: var(--espacios-contenido);
 }
